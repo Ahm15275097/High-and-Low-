@@ -55,7 +55,51 @@ C++
 **Constructing And Implementing My Code Think of this as the method. How will you go about building your program?**
 
 
-Firstly, I will think about writing the code for the random number that the computer will generate.
+Firstly, I will think about writing the code for the random number that the computer will generate. 
+
+
+Algorithms
+ 
+
+Coding Standards
+
+- In this program all the curly brackets are opened at the same place
+- All the code is indented the same 
+- 
+
+
+IDE 
+
+
+An IDE was not used in the creation of this program, as the program was created in notepad. 
+
+
+
+
+# V. Research
+
+https://www.w3schools.com/. 
+
+
+# VI. Project Management
+Burndown Chart
+
+![Burndown]()
+
+
+Chart showing the completion of user stories over time
+![User Stories tracking Chart]()
+
+
+Flowchart
+
+
+![Flowchart]()
+
+
+
+Functions
+Descriptions of functions given on flowchart
 
 
 
