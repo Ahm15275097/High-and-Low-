@@ -71,7 +71,7 @@ Coding Standards
 IDE 
 
 
-An IDE was not used in the creation of this program, as the program was created in notepad. 
+
 
 
 
@@ -82,13 +82,13 @@ https://www.w3schools.com/.
 
 
 # VI. Project Management
-Burndown Chart
-
-![Burndown]()
 
 
-Chart showing the completion of user stories over time
-![User Stories tracking Chart]()
+![Burndown](https://i.imgur.com/4EljmRf.png)
+
+
+
+![User Stories tracking Chart](blob:https://imgur.com/a14bea9a-313b-4c23-9e50-12fe2f40caea)
 
 
 Flowchart
