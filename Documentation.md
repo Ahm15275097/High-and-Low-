@@ -88,7 +88,7 @@ https://www.w3schools.com/.
 
 
 
-![User Stories tracking Chart](blob:https://imgur.com/a14bea9a-313b-4c23-9e50-12fe2f40caea)
+![User Stories tracking Chart]https://i.imgur.com/zdacKKz.png()
 
 
 Flowchart
