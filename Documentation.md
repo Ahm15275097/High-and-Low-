@@ -50,6 +50,7 @@ C++
 
 
 **Programming Challenges**
+- The main challenge I faced was how the computer can generate a random number
 
 
 **Constructing And Implementing My Code Think of this as the method. How will you go about building your program?**
