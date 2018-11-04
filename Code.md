@@ -1,7 +1,19 @@
+/*The computer will display a number between 1 and 10
+The computer will ask whether the user if they think the next number will be higher or lower
+The user will input either higher or lower
+The computer will now generate another number at random again btween 1 and 10
+The computer will display that new number
+If the player has guesed correctly a message will be displayed "you win", if they haven't a message will be displayed "you lose"
+If the the computer can't go higher or lower then a message will be displayed "it's a draw"*/
+
+// These are the libraries set up to make the game run 
+
     #include <cstdlib> 
     #include <ctime> 
     #include <iostream>
     using namespace std;
+    
+// 
 
 
 
