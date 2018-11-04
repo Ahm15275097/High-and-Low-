@@ -19,6 +19,8 @@ A computer will give the user a number, the user will guess if the number after 
 
 
 Non-Functional Requirements
+- A message can be stated after the game to ask the player if they would like to play again.
+- The screen can be cleared once the result has appeared if the user has selected the option where they would like to play again.
 
 
 User Stories
@@ -41,25 +43,26 @@ A simple guessing game
 
 
 **Platform**
-
+The website https://repl.it/ was used in the creation of this game. This is an online programming environment where the user can write code very easily.
 
 **Programming Language/Environment**
-
-
 C++
 
 
 **Programming Challenges**
 - The main challenge I faced was how the computer can generate a random number
+- Another challenge was how could generate two different random numbers
 
 
 **Constructing And Implementing My Code Think of this as the method. How will you go about building your program?**
 
 
-Firstly, I will think about writing the code for the random number that the computer will generate. 
+The first thing that is needed to be thought about is how to implement the random numbers. Some research was needed to be done and then the code would be written to allow this to happen. After, a string would need to be created to allow the user to input their choice Then, the while loop would be created to allow the user to play again.
 
 
 Algorithms
+
+There are 2 main algorithms for this program. 
  
 
 Coding Standards
