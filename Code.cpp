@@ -13,7 +13,7 @@ If the the computer can't go higher or lower then a message will be displayed "i
     #include <iostream>
     using namespace std;
     
-// 
+// This section of code allows the user to chose higher or lower 
 
 
 
@@ -30,6 +30,7 @@ If the the computer can't go higher or lower then a message will be displayed "i
           cout << "Please try again \n";
         }
     }
+    // This line of code or the while loop
     char again = 'y';
 
 
@@ -37,23 +38,32 @@ If the the computer can't go higher or lower then a message will be displayed "i
 
     int main() {
   
-
+        
+      // This is the while loop  
       while (again == 'y'){ 
+          
+        // Generating the random number between 1 and 10   
 
-        srand(time(0)); 
+        srand(time(0));                                                              
         int firstNumber;
         firstNumber = (rand () % 10+1); 
         cout << " The first number is  "  << firstNumber << endl;
+          
+        // Allowing the user to input higher or lower 
 
         cout << " Would you like to go higher or lower. \n h = higher and l = lower \n";
         string choice;
         cin >> choice;
         checkInput(choice);
+          
+        // Generating the second number between 1 and 10
 
         srand(time_t(rand()));
         int secondNumber;
         secondNumber = (rand () % 10+1);
         cout << " The second number is  " << secondNumber << endl;
+          
+        // The results oof each scenario if the user's choice is higher   
 
         if (choice == "h"){
           if (secondNumber > firstNumber){
@@ -67,6 +77,9 @@ If the the computer can't go higher or lower then a message will be displayed "i
              cout << "its a draw";
              }
         }
+          
+         // The results oof each scenario if the user's choice is lower  
+
         
         if (choice == "l"){
           if (secondNumber < firstNumber){
@@ -79,6 +92,7 @@ If the the computer can't go higher or lower then a message will be displayed "i
             cout << "its a draw";
            }
         }
+        // Asking the user if they would like to play again 
         cout << " \n Would you like to go again y/n ";
         cin >> again;
       }
