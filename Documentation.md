@@ -62,14 +62,13 @@ The first thing that is needed to be thought about is how to implement the rando
 
 Algorithms
 
-There are 2 main algorithms for this program. 
- 
+The first algorithm in my program is to do with the random numbers. The first number is shown and user selects higher or lower based on what number is displayed. Then the user will be asked if they would like to go higher or lower. After their input is processed the second random number is generated. If the user guesses correctly they win but if they haven't they lose, an alternative outcome could be that both numbers are the same, in this case it will be a draw. Lastly, the user will be asked if they would like to play again. 
 
 Coding Standards
 
 - In this program all the curly brackets are opened at the same place
 - All the code is indented the same 
-- 
+- Obvious comments were avoided 
 
 
 IDE 
@@ -103,7 +102,69 @@ Flowchart
 
 
 Functions
-Descriptions of functions given on flowchart
+
+
+The computer will generate a random number. This number will be between 1 and 10: 
+
+    srand(time(0));
+    int firstNumber;
+    firstNumber = (rand () % 10+1);
+
+
+It will display this number:
+    
+    cout << " The first number is  "  << firstNumber << endl;
+    
+It will get input from the user:
+    
+        cout << " Would you like to go higher or lower. \n h = higher and l = lower \n";
+        string choice;
+        cin >> choice;
+        checkInput(choice);
+        
+The second random number will be generated:
+        
+        srand(time_t(rand()));
+        int secondNumber;
+        secondNumber = (rand () % 10+1);
+
+Again, this will be displayed:
+        
+        cout << " The second number is  " << secondNumber << endl;
+        
+Then the result will be displayed, If the user has chosen higher one of three results can be displayed:        
+        
+        if (choice == "h"){
+          if (secondNumber > firstNumber){
+            cout << "You have won"; 
+        }
+   
+           else if (secondNumber < firstNumber){
+           cout << "You have lost";
+           }
+             else {
+             cout << "its a draw";
+             }
+        }
+However, if the user has chosen lower one of these three results can be displayed:
+        
+          if (choice == "l"){
+          if (secondNumber < firstNumber){
+            cout << "You have won";
+          }
+          else if (secondNumber > firstNumber){
+            cout << "You have lost";
+          }
+           else {
+            cout << "its a draw";
+           }
+        }
+ Lastly the user will be asked if they would like to play again.
+        
+
+Evaluation 
+
+
 
 
 
