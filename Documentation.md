@@ -163,7 +163,7 @@ However, if the user has chosen lower one of these three results can be displaye
         
 
 Evaluation 
-
+While creating the program I realised that this was the easiest program that I had to create. I fully understood what was asked from me and the steps which I would take to complete it. There was a small issue of generating different random numbers but once I had figured out how to do this, the rest of the project was straightforward. I enjoyed creating this program because I didnt require much help and improved my knowlege of c++.
 
 
 
