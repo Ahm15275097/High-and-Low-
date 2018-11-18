@@ -33,7 +33,7 @@ User Stories
 - (5) As a player I would like to see a message asking me if I would like to play again
 - (6) As a player I would like to see a score function, stating how many times i have guessed correctly and how many times i have guessed incorrectly
 
-How I addresed the requirements
+After looking at all the requirements, priority was given to the ones which the most difficult and therefore required more time.  
 
 
 # lll. Genre
