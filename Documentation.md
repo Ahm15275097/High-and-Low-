@@ -43,7 +43,8 @@ A simple guessing game
 
 
 **Platform**
-The website https://repl.it/ was used in the creation of this game. This is an online programming environment where the user can write code very easily.
+The website https://repl.it/ was used in the creation of this game. This is an online programming environment where the user can write code very easily. As this was an IDE this was very helpful because it helps make developing very fast, it helps the developer by giving them shortcuts and stops mistakes from happening.
+![Flowchart](https://i.imgur.com/ePeDgWo.png)
 
 **Programming Language/Environment**
 C++
