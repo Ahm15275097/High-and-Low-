@@ -75,7 +75,9 @@ Coding Standards
 # How the IDE helped manage the development process of the program
 
 
-The IDE which was used to help create this program was https://repl.it/. This was such a great tool because it made writing code more efficient and much easier.
+The IDE which was used to help create this program was https://repl.it/. This was such a great tool because it made writing code more efficient and much easier. 
+
+
 
 
 
