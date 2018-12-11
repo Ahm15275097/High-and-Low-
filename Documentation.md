@@ -77,11 +77,9 @@ Coding Standards
 
 The IDE which was used to help create this program was https://repl.it/. This was such a great tool because it made writing code more efficient and much easier. 
 
+One of the features in the IDE that helped greatly, was the use of syntax highlighting. This made writing the code easier as all the code were in different colours according to which category they were in. Syntax highlighting found errors while the code was being written, the made writing code much faster as compilation didn't have to be done before finding a syntax error.
 
-
-
-
-
+Another feature that an IDE, such as https://repl.it/, supplies is the use of an internal compiler. This made testing the code so much simpler. If the code was written in a text editor such as notepad, which isn't an IDE, the code would have had to be taken to a seperate compiler to be tested. This would have been very time consuming. As this made testing much easier, more frequent tests could be done therefor making the application more secure.
 
 
 
