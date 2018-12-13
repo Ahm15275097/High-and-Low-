@@ -81,7 +81,7 @@ One of the features in the IDE that helped greatly, was the use of syntax highli
 
 Another feature that an IDE, such as https://repl.it/, supplies is the use of an internal compiler. This made testing the code so much simpler. If the code was written in a text editor such as notepad, which isn't an IDE, the code would have had to be taken to a seperate compiler to be tested. This would have been very time consuming. As this made testing much easier, more frequent tests could be done therefor making the application more secure.
 
-The debugging process was made easier by the use of this IDE as it 
+The debugging process was made easier by the use of this IDE as it gave a command straight away when something went wrong, this allowed the problem to be acessed and solved efficiently.  
 
 
 
